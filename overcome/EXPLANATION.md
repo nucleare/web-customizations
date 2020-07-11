@@ -16,6 +16,23 @@ To overcome various root issues such as the follow, it may be worthwhile to crea
 - "transaction lock" issues while running commands such as "rpm" where "su" is not allowed
 - Error "can't create transaction lock on /var/lib/rpm/.rpm.lock (Permission denied)" when trying to run the rpm installer for Web Server
 - Errors such as "sudo: effective uid is not 0, is sudo installed setuid root?"
+- CRITICAL:yum.cli:Config Error: Error accessing file for config file:///etc/yum.conf
+
+
+## How I Got Here
+I attempted to install a web hosted application that ran into usses with playback of uploaded videos and discovered I needed to add plugs and players to the serve to gethem to work. For personal references, it was installing things such as FFmpeg, Mplayer, and MP4Box in order to use ClipBucket
+
+**Issues came up while working on guides (just to refresh personal recollection if needed at a later time) such as: **
+- How To Prepare The Server For ClipBucket - https://www.hostwinds.com/guide/prepare-server-clipbucket/
+- Install FFmpeg, Mplayer, Mencoder, MP4Box, Flvtool2 - https://www.cpanelkb.net/install-ffmpeg-mplayer-mencoder-mp4box-flvtool2/
+- Requirements And Installation - https://clipbucket.com/docs/installation/
+- How to Install FFmpeg , Mplayer , Mencoder , MP4Box , Flvtool2, and all their libraries - https://www.hivelocity.net/kb/how-to-install-ffmpeg-mplayer-mencoder-mp4box-flvtool2-and-all-their-libraries/
+- deny a user access to specific command - https://www.linuxquestions.org/questions/linux-security-4/deny-a-user-access-to-specific-command-432824/
+- [Substitude Personal Server address with Project site] - http://www.mplayerhq.hu/design7/news.html
+
+**Helpful discored resource:**
+cPanel default open ports - https://www.cpanelkb.net/cpanel-default-open-ports/
+
 
 **Research & Inspirations**
 - why can't I install packages with rpm? I get “transaction lock” [closed] - https://unix.stackexchange.com/questions/125706/why-cant-i-install-packages-with-rpm-i-get-transaction-lock
