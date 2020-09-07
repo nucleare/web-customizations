@@ -20,7 +20,7 @@ To overcome various root issues such as the follow, it may be worthwhile to crea
 
 
 ## How I Got Here
-I attempted to install a web hosted application that ran into usses with playback of uploaded videos and discovered I needed to add plugs and players to the serve to gethem to work. For personal references, it was installing things such as FFmpeg, Mplayer, and MP4Box in order to use ClipBucket
+I attempted to install a web hosted application that ran into issues with playback of uploaded videos and discovered that I needed to add plugins and players to the server to get them to work. For reference: it was installing things such as FFmpeg, Mplayer, and MP4Box in order to use ClipBucket (a php-based application).
 
 **Issues came up while working on guides (just to refresh personal recollection if needed at a later time) such as: **
 - How To Prepare The Server For ClipBucket - https://www.hostwinds.com/guide/prepare-server-clipbucket/
